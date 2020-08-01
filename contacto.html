@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funglab2</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <section class="contenedor nav">
+                <div class="logo">
+                    <img src="img/logo.jpeg" alt="">
+                </div>
+                <div class="enlaces-header">
+                    <a href="#">inicio</a>
+                    <a href="#">inicio</a>
+                    <a href="#">inicio</a>
+                    <a href="#">inicio</a>
+                    <a href="#">inicio</a>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </section>
+        </nav>
+    </header>
+    <section class="about-us">
+        <div class="contenedor1">
+            <h2 class="titulo">
+                Contacto
+            </h2>
+            <div class="contenedor-articulo">
+                <div class="articulo" data-aos="zoom-in-right">
+                    <h3>Envianos un mensaje</h3>
+                    <form action="enviar.php" method="POST">
+                        <input type="text" name="nombre" placeholder="nombre" required>
+                        <input type="text" name="e-mail" placeholder="e-mail" required>
+                        <input type="text" name="telefono" placeholder="telefono" required>
+                        <textarea name="mensaje" id="" cols="30" rows="10" class="mensaje" placeholder="Escribe tu mensaje"
+                            required></textarea>
+                        <input type="submit" value="Enviar" class="botoncito">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/10c3bf81f6.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
